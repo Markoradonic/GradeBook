@@ -6,7 +6,7 @@ namespace GradeBook
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World! Od strane Laptopa");
+            Console.WriteLine("Hello World! Od strane Desktopa");
         }
     }
 }
