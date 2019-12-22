@@ -186,3 +186,6 @@ C:\Users\Marko\Desktop\gradebook\test\GradeBook.Tests\obj\Debug\netcoreapp3.1\Gr
 C:\Users\Marko\Desktop\gradebook\test\GradeBook.Tests\obj\Debug\netcoreapp3.1\GradeBook.Tests.csproj.CopyComplete
 C:\Users\Marko\Desktop\gradebook\test\GradeBook.Tests\obj\Debug\netcoreapp3.1\GradeBook.Tests.dll
 C:\Users\Marko\Desktop\gradebook\test\GradeBook.Tests\obj\Debug\netcoreapp3.1\GradeBook.Tests.pdb
+C:\Users\Marko\Desktop\gradebook\test\GradeBook.Tests\bin\Debug\netcoreapp3.1\GradeBook.exe
+C:\Users\Marko\Desktop\gradebook\test\GradeBook.Tests\bin\Debug\netcoreapp3.1\GradeBook.dll
+C:\Users\Marko\Desktop\gradebook\test\GradeBook.Tests\bin\Debug\netcoreapp3.1\GradeBook.pdb

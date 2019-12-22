@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace GradeBook
 {
 
-   public class Book 
+   public class Book  // public je je ovde access modifier koji je potreban da bi moglo da se testira.
     {
         public Book(string name) {
             grades = new List<double>();
@@ -15,22 +15,22 @@ namespace GradeBook
             grades.Add(grade);
         }
 
-        public void ShowStatistic()
+        public Statistics GetStatistics()
         {
-            var result = 0.0;
-                var highGrade = double.MinValue;
-                var lowGrade = double.MaxValue;
-                foreach(var number in grades)
+            var result = new Statistics();
+            result.Average = 0.0;
+            result.High = double.MinValue;
+            result.Low = double.MaxValue;
+                foreach(var grade in grades)
                 {   
-
-                   highGrade = Math.Max(number, highGrade);
-                   lowGrade = Math.Min(number, lowGrade);
-                    result += number;
+                    result.Low = Math.Min(grade, result.Low);
+                    result.High = Math.Max(grade, result.High);
+                   
+                    result.Average += grade;
                 }
-                result /= grades.Count;
-                Console.WriteLine($"The lowest grade is {lowGrade}");
-                Console.WriteLine($"The average grade is {result:N1}");// formatiramo na jednu decimalu
-                Console.WriteLine($"The higest grade is {highGrade}");
+                result.Average /= grades.Count;
+                
+                return result;
         }
 
         // nije bas jasan deo nalazi se u tutorijalu classes and objects 
