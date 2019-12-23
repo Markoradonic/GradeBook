@@ -9,18 +9,19 @@ namespace GradeBook
         {
                 var book = new Book("Scott's grades book");
                 book.AddGrade(89.1);
-                book.AddGrade(90.1);
+                book.AddGrade(90.5);
+                book.AddGrade(77.3);
+
+                var stats = book.GetStatistics();
+
+                Console.WriteLine($"The lowest grade is {stats.Low}");
+                Console.WriteLine($"The average grade is {stats.Average:N1}");// formatiramo na jednu decimalu
+                Console.WriteLine($"The higest grade is {stats.High}");
+
                 
             
-                var grades = new List<double>() {12.7, 10.3, 6.11, 4.1 };
-                grades.Add(56.1);
-                var result = 0.0;
-                foreach(var number in grades)
-                {
-                    result += number;
-                }
-                result /= grades.Count;
-                Console.WriteLine($"The average grade is {result:N1}");// formatiramo na jednu decimalu
+                
+                
         }
     }
 }
