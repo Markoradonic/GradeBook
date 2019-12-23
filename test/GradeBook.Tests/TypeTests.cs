@@ -7,7 +7,7 @@ namespace GradeBook.Tests
     {
 
         // 18:48 
-        [Fact] // -> je atribut u C#-u
+        [Fact] // -> je atribut u C#-u 
         public void GetBookReturnsDifferentObjexts()
         {
             var book1 = GetBook("Book 1");
