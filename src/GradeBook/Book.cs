@@ -8,7 +8,7 @@ namespace GradeBook
     {
         public Book(string name) {
             grades = new List<double>();
-            this.name = name; // sa this name kazemo da je to objekat i da name posle znaka jednako ide iz parametra funkcije 
+            Name = name; // sa this name kazemo da je to objekat i da name posle znaka jednako ide iz parametra funkcije 
         } 
         
         public void AddGrade (double grade) { // AddGrade je instanca member klase Book
@@ -35,7 +35,7 @@ namespace GradeBook
 
         // nije bas jasan deo nalazi se u tutorijalu classes and objects 
         private List<double> grades;
-        private string name;
+        public string Name;
     }
 
 

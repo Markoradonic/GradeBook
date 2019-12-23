@@ -6,7 +6,7 @@ namespace GradeBook.Tests
     public class BookTests
     {
         [Fact] // -> je atribut u C#-u
-        public void Test1()
+        public void BookCalculatesAnAverageGrade()
         {
         var book = new Book("");
         // arrange
