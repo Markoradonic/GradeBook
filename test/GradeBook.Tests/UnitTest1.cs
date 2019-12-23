@@ -13,7 +13,7 @@ namespace GradeBook.Tests
             var expected = 7;
 
             var actual = x * y;
-            // prvi komentar posle testa
+            // stao na 13:38
 
             Assert.Equal(expected, actual);
         }
