@@ -26,7 +26,7 @@ namespace GradeBook.Tests
         }
 
 
-
+// 4
         [Fact] // -> je atribut u C#-u 
         public void CSharpIsPassByValue()
         {
@@ -44,7 +44,7 @@ namespace GradeBook.Tests
                // book.Name = name; // na ovaj nacin uzimamo vrednost iz varijable book1, iz kriranog objekta (this is not working with the same object "var book1" that we worked with up )
         }
 
-
+//3
         [Fact] // -> je atribut u C#-u 
         public void CanSetNameFromReference()
         {
@@ -60,8 +60,8 @@ namespace GradeBook.Tests
         {
             book.Name = name;
         }
-
-        // od 17:02
+// 2
+        // od 27:02
         [Fact] // -> je atribut u C#-u 
         public void GetBookReturnsDifferentObjexts()
         {
@@ -74,7 +74,7 @@ namespace GradeBook.Tests
 
         }
 
-
+// 1
 
         // two variables can reference the same object.
          public void TwoVarsCanReferenceSameObject()
