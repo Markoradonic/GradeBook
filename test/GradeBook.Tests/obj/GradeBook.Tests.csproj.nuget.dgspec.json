@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marko\\Desktop\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj": {}
+    "C:\\Users\\Marko\\Desktop\\Tutorials\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marko\\Desktop\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
+    "C:\\Users\\Marko\\Desktop\\Tutorials\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marko\\Desktop\\gradebook\\src\\GradeBook\\GradeBook.csproj",
+        "projectUniqueName": "C:\\Users\\Marko\\Desktop\\Tutorials\\gradebook\\src\\GradeBook\\GradeBook.csproj",
         "projectName": "GradeBook",
-        "projectPath": "C:\\Users\\Marko\\Desktop\\gradebook\\src\\GradeBook\\GradeBook.csproj",
+        "projectPath": "C:\\Users\\Marko\\Desktop\\Tutorials\\gradebook\\src\\GradeBook\\GradeBook.csproj",
         "packagesPath": "C:\\Users\\Marko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marko\\Desktop\\gradebook\\src\\GradeBook\\obj\\",
+        "outputPath": "C:\\Users\\Marko\\Desktop\\Tutorials\\gradebook\\src\\GradeBook\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Marko\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -59,21 +61,23 @@
         }
       }
     },
-    "C:\\Users\\Marko\\Desktop\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj": {
+    "C:\\Users\\Marko\\Desktop\\Tutorials\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marko\\Desktop\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Marko\\Desktop\\Tutorials\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
         "projectName": "GradeBook.Tests",
-        "projectPath": "C:\\Users\\Marko\\Desktop\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+        "projectPath": "C:\\Users\\Marko\\Desktop\\Tutorials\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
         "packagesPath": "C:\\Users\\Marko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marko\\Desktop\\gradebook\\test\\GradeBook.Tests\\obj\\",
+        "outputPath": "C:\\Users\\Marko\\Desktop\\Tutorials\\gradebook\\test\\GradeBook.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Marko\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -85,8 +89,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Marko\\Desktop\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
-                "projectPath": "C:\\Users\\Marko\\Desktop\\gradebook\\src\\GradeBook\\GradeBook.csproj"
+              "C:\\Users\\Marko\\Desktop\\Tutorials\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
+                "projectPath": "C:\\Users\\Marko\\Desktop\\Tutorials\\gradebook\\src\\GradeBook\\GradeBook.csproj"
               }
             }
           }
